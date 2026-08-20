@@ -97,6 +97,6 @@
 // },1000)
 
 
-console.log("One");
-setTimeout(()=>console.log("Two")); 
-console.log("Three");
+// console.log("One");
+// setTimeout(()=>console.log("Two")); 
+// console.log("Three");
