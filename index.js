@@ -129,3 +129,15 @@ myPromise.then((msg)=>{
     console.log(msg);
 })
 .finally(()=>console.log("All resource has been closed"))
+
+async function loginHandler(){
+    try{
+        const loginStatus = myPromise
+        console.log(loginStatus);
+    }catch(e){
+        console.log(e);
+    }finally{
+        console.log("Closing all the open resources.....");
+    }
+}
+loginHandler();
