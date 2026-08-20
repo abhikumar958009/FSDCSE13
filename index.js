@@ -100,3 +100,16 @@
 // console.log("One");
 // setTimeout(()=>console.log("Two")); 
 // console.log("Three");
+let a;
+let b;
+function sumofsqrt(a,b){
+    return Math.sqrt(a)+Math.sqrt(b);
+}
+function sumOfSqrtWithName(name,clbk){
+    const result = clbk(64,49);
+    return name+result;
+}
+const result=sumOfSqrtWithName("Abhishek Kumar...Sum=",sumofsqrt);
+console.log(result);
+
+
