@@ -110,31 +110,31 @@
 // const result=sumOfSqrtWithName("Abhishek Kumar...Sum=",sumofsqrt);
 // console.log(result);
 
-const myPromise = new Promise((resolve, reject) => {
-  let username = "AbhishekKumar";
-  let password = "123456";
-  if (username == "AbhishekKumar" && password == "123456") {
-    resolve("succes");
-  } else {
-    reject("Invalid user");
-  }
-});
-// myPromise.then((msg)=>{
-//     console.log(msg);
-// })
-// .catch(msg=>{
-//     console.log(msg);
-// })
-// .finally(()=>console.log("All resource has been closed"))
+// const myPromise = new Promise((resolve, reject) => {
+//   let username = "AbhishekKumar";
+//   let password = "123456";
+//   if (username == "AbhishekKumar" && password == "123456") {
+//     resolve("succes");
+//   } else {
+//     reject("Invalid user");
+//   }
+// });
+// // myPromise.then((msg)=>{
+// //     console.log(msg);
+// // })
+// // .catch(msg=>{
+// //     console.log(msg);
+// // })
+// // .finally(()=>console.log("All resource has been closed"))
 
-async function loginHandler() {
-  try {
-    const loginStatus = myPromise;
-    console.log(loginStatus);
-  } catch (e) {
-    console.log(e);
-  } finally {
-    console.log("Closing all the open resources.....");
-  }
-}
-loginHandler();
+// async function loginHandler() {
+//   try {
+//     const loginStatus = myPromise;
+//     console.log(loginStatus);
+//   } catch (e) {
+//     console.log(e);
+//   } finally {
+//     console.log("Closing all the open resources.....");
+//   }
+// }
+// loginHandler();
