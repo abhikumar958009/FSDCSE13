@@ -6,16 +6,18 @@ import "./App.css";
 import MyPhoto from "./image/MyPhoto.jpg";
 import UseProps from "./Component/UseProps";
 import ICardGallery from "./Component/ICardGallery";
+import ImbdCard from "./Component/ImbdCard";
 
 function App() {
-  const Name = "Abhishek Kumar";
-  const Roll_No = 2400320100048;
-  const Branch = "CSE";
-  const college = "ABES";
+  // const Name = "Abhishek Kumar";
+  // const Roll_No = 2400320100048;
+  // const Branch = "CSE";
+  // const college = "ABES";
   return (
     <div>
       {/* <UseProps/> */}
-      <ICardGallery/>
+      {/* <ICardGallery/> */}
+      <ImbdCard/>
     </div>
   );
 
