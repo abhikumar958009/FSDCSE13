@@ -3,16 +3,16 @@ import React from 'react';
 const ImdbCard = () => {
   // Movie data extracted from the IMDb Best of 2025 chart
   const movies = [
-    { rank: 1, title: 'Superman', image: 'https://unsplash.com' },
-    { rank: 2, title: 'Weapons', image: 'https://unsplash.com' },
-    { rank: 3, title: 'Sinners', image: 'https://unsplash.com' },
-    { rank: 4, title: 'One Battle After Another', image: 'https://unsplash.com' },
-    { rank: 5, title: 'Jurassic World: Rebirth', image: 'https://unsplash.com' },
-    { rank: 6, title: 'Frankenstein', image: 'https://unsplash.com' },
-    { rank: 7, title: 'Happy Gilmore 2', image: 'https://unsplash.com' },
-    { rank: 8, title: 'Thunderbolts*', image: 'https://unsplash.com' },
-    { rank: 9, title: 'Mission: Impossible - The Final Reckoning', image: 'https://unsplash.com' },
-    { rank: 10, title: 'F1', image: 'https://unsplash.com' },
+    { rank: 1, title: 'Superman', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj17ZQEFk3MI5qtSpswNeHESGi3-8FrgkkkYjIKdZzFw&s=10' },
+    { rank: 2, title: 'Weapons', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzssQwGnSEOdJCFxdHIK5assveCik3ARkqwmtBSwW2Ww&s=10' },
+    { rank: 3, title: 'Sinners', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7XhUeMziRTj6JB68RIO5dsFKKce-0q5N9i0QCCUIy_w&s' },
+    { rank: 4, title: 'One Battle After Another', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtcmlDzTBPyEfyW22pGg7ht09UK98b88eeRKdODWstHw&s=10' },
+    { rank: 5, title: 'Jurassic World: Rebirth', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgD2tks4VibcRg3_R9Mi0wzEDdO1L9pyUZTywRsOu8ug&s=10' },
+    { rank: 6, title: 'Frankenstein', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgmyTBt40_5tolvOKviMo_GjRQ17xwxWHSEtIUAssnSA&s=10' },
+    { rank: 7, title: 'Happy Gilmore 2', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiiyipi2vW-A10jg45LqEEgsEHDa-6mRWUJU4PqtdfgA&s' },
+    { rank: 8, title: 'Thunderbolts*', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJt6jKh_1KTBepLkH6SCKb_fOFHTGpWXoZ0hejev1xTg&s' },
+    { rank: 9, title: 'Mission: Impossible - The Final Reckoning', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBBTMjzEED41N7AjP_Fz2URCDBAJPavTWeMTxEhXOjxw&s=10' },
+    { rank: 10, title: 'F1', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgJrbKuhOX3B-jRL8CTi_u729k86d4ZV8x2gB_HE38HQ&s' },
   ];
 
   // Split into two columns for the 1-5 and 6-10 grid layout
